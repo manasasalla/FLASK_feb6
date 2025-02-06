@@ -12,7 +12,7 @@ client_config = {
     "token_uri":"https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
     "client_secret":"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",
-    "redirect_uris":["http://localhost"]}
+    "redirect_uris":["http://localhost","https://flask-feb6-fh6kqhyak-manasasallas-projects.vercel.app"]}
 
 
 gauth.CommandLineAuth()
