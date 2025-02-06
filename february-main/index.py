@@ -15,7 +15,7 @@ client_config = {
     "redirect_uris":["http://localhost"]}
 
 
-gauth.LocalWebserverAuth()
+gauth.CommandLineAuth()
 drive = GoogleDrive(gauth)
 
 @app.route("/")
